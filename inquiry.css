@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 300px 1900px 200px;   
+}
+
+
+
+.formsection {
+    margin-top: 70px;
+}

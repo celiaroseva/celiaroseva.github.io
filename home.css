@@ -1,0 +1,217 @@
+/* body */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 300px 150px 20px 370px 100px 800px 300px 400px 200px;   
+}
+
+
+
+/* intro */
+
+.intro {
+    text-align: center;
+    color: #F57761;
+    font-family: 'Rozha One', serif;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-size: 25px;
+}
+
+/* about */
+
+.aboutsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+h4 {
+    color: #FFD9C8; 
+    text-align: right; 
+    margin-right: 20px;
+    margin-top: -30px;
+    font-size: 80px;
+}
+
+.welcome {
+    z-index: 0;
+}
+
+#intropara {
+    background-color: white;
+    color: #F57761;
+    width: 100%;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+#photo1 {
+    height: 100%;
+    width: auto;
+}
+
+a.link3:active  {color: #F57761 !important;}
+a.link3:link {color: #F57761 !important;}
+a.link3:visited {color: #F57761 !important;}
+a.link3:link {font-family: 'Rozha One', serif !important;}
+ 
+
+/* services */
+
+.serviceintro {
+    margin: 30px;
+    padding: 100px;
+    text-align: center;
+    color: #FF7A3F;
+    font-size: 20px;
+}
+
+.servicesection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 60px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.servicelist {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #FFD9C8;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 90px 90px 0 0px;
+    width: 180px;
+    height: 500px;
+}
+
+.servicelist li {
+    text-transform: lowercase;
+    font-weight: 500;
+    width: 130px;
+    text-align: left;
+    list-style-type: disc;
+    margin: 10px;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* ready to get started */
+.startsection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+}
+
+h6 {
+    font-family: 'Rozha One', serif;
+    font-weight: lighter;
+    text-transform: lowercase; 
+    color: #FF7A3F;
+    font-size: 60px;
+}
+
+
+a.link2:active  {color: #FF7A3F !important; }
+a.link2:link {color: #FF7A3F !important;}
+a.link2:visited {color: #FF7A3F !important;} 
+
+
+
+
+
+#arrow {
+    height: 25%;
+    width: auto;
+    padding: 20px;
+}
+
+/* email form */
+
+#signup {
+    margin-bottom: 30px;
+}
+
+input.button {
+    color: #FFD9C8;
+    background-color: #FF7A3F;
+    border-color: #FF7A3F;
+    box-shadow: none; 
+    border-radius: 1em;
+    font-family: 'Rozha One', serif;
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input.button:hover {
+    background-color: #F57761;
+}
+
+
+
+    /* overall div */
+#mc_embed_signup {
+    font-family: 'Rozha One', serif;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-size: 20px;
+    color: #F57761;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+div.mc-field-group {
+    padding: 20px;
+}
+
+    /*required fields */
+.indicates-required {
+    font-size: 10px;
+    color: #B59171;
+    margin-bottom: 20px;
+}
+
+input {
+    color: #FFD9C8;
+    font-size: 20px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #F57761;
+    background-color: #FDF9EA;
+    box-sizing: border-box;
+}
+
+div.mc-field-group input:focus {
+    border-bottom: 2px solid #F57761;
+    border: none; 
+    outline: none;
+}
+
+    /* logo */
+.brandinglogo {
+    display: none;
+    height: 5px;
+}

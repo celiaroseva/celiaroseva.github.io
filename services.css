@@ -1,0 +1,110 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 300px 50px 700px 60px 600px 200px;   
+}
+
+/* intro */
+#serviceintro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.listtitle {
+    font-size: 20px;
+    color: #F57761;
+    font-family: 'Rozha One', serif;
+    font-weight: lighter;
+    text-transform: lowercase;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    width: 200px;
+}
+
+.listsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.onelist {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.onelist li {
+    text-transform: lowercase;
+    font-weight: 500;
+    text-align: left;
+    list-style-type: disc;
+    font-size: 18px;
+}
+
+.ullist {
+    display: flex;
+    flex-direction: column; 
+}
+
+.ullist li {
+    margin: 10px;
+    margin-left: 100px;
+    width: 200px;
+}
+
+/* price section */
+.pricesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagetext {
+    color: #B59171;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#lasttext {
+    margin-top: 100px;
+}
+
+/* button */
+
+.button {
+    color: #FFD9C8;
+    background-color: #FF7A3F;
+    border-color: #FF7A3F;
+    box-shadow: none; 
+    border-radius: 1em;
+    font-family: 'Rozha One', serif;
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 60px;
+    width: 400px;
+    font-size: 20px;
+    
+}
+
+.button:hover {
+    background-color: #F57761;
+}
+
+a.link3:active  {color: white !important; }
+a.link3:link {color: white !important;}
+a.link3:visited {color: white !important;} 
+
+
+
+
+
+
