@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items:center;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     z-index: 1;
 }
@@ -116,3 +116,28 @@ h2 {
 .link2:visited {color: #FF7A3F !important;}
 
 
+/* mobile view */
+
+@media screen and (max-width: 480px) { 
+    .pages {
+        width: 100vw;
+    }
+    li {
+        width: 20px;
+        font-size: 15px;
+    }
+    #emailtext {
+        font-size: 17px;
+    }
+    #homeul {
+        margin-right: 70px;
+    }
+    #sparks {
+        height: 20%;
+        width: auto;
+        margin-bottom: -200px;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+}

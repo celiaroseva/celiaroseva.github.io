@@ -105,6 +105,32 @@ a.link3:visited {color: white !important;}
 
 
 
+/* mobile view */
 
+@media screen and (max-width: 480px) { 
+    .grid {
+        grid-template-columns: repeat(100%);
+        grid-template-rows: 300px 50px 1800px 60px 600px 200px; 
+    } 
+
+    #serviceintro {
+        width: 90vw;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .listsection {
+        width: 100vw;
+        flex-direction: column;
+    }
+    .pagetext {
+        width: 80vw;
+
+    }
+    .pricesection {
+        width: 90vw;
+        margin-left: 20px;
+    }
+
+}
 
 

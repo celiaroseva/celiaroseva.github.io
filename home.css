@@ -1,9 +1,13 @@
 /* body */
 .grid {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(1fr);
     grid-template-rows: 300px 150px 20px 370px 100px 800px 300px 400px 200px;   
 }
+
+
+
 
 
 
@@ -215,3 +219,61 @@ div.mc-field-group input:focus {
     display: none;
     height: 5px;
 }
+
+
+/* mobile view */
+
+@media screen and (max-width: 480px) {
+     .grid {
+        grid-template-columns: repeat(100%);
+        grid-template-rows: 300px 150px 20px 370px 100px 2000px 300px 400px 200px; 
+     }
+     .intro {
+        font-size: 20px;
+        text-align: center;
+    }
+    /*intro section */
+    h4 {
+        margin-right: 20px;
+        margin-top: -15px;  
+        font-size: 50px;
+    }
+    #photo1 {
+        height: 50%;
+        width: auto;
+    }
+    #intropara {
+        font-size: 15px;
+        padding-top: 45px;
+        padding-left: 20px;
+        width: 45vw;
+    }
+    /* service section */
+    .servicesection {
+        flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    }
+    /* start section */
+    .startsection {
+        width: 90vw;
+        justify-content: center;
+    }
+    .link2 {
+        font-size: 40px;
+        margin-left: 20px;
+        text-align: left;
+    }
+    #arrow {
+        height: 25%;
+        width: auto;
+        padding: 20px;
+        margin-right: 60px;
+    }
+    /* email signup */
+    #mc_embed_signup {
+        width: 90vw;
+    }
+
+    
+    }

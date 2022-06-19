@@ -58,3 +58,42 @@
     height: auto;
     width: 100%;
 }
+
+
+/* mobile view */
+
+@media screen and (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(100%);
+        grid-template-rows: 300px 100px 2200px 300px 200px; 
+    } 
+    .aboutheader {
+        width: 100vw;
+    }
+    #headertext {
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+    .aboutcontent {
+        width: 100vw;
+        margin-top: -20px;
+    }
+    #photo2 {
+        width: 200px;
+        height: auto;
+    }
+    .image2 {
+        width: 100vw;
+    }
+    #aboutpara {
+        font-size: 17px;
+    }
+    #photo3 {
+        height: auto;
+        width: 100vw;
+    }
+    .largeimage {
+        width: 100vw;
+    }
+
+}
