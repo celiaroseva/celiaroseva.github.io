@@ -140,4 +140,8 @@ h2 {
         margin-left: 20px;
     }
 
+    body {width: 100vw;}
+    header {width: 100vw;}
+    .footersection {width:100vw;}
+
 }
