@@ -1,4 +1,5 @@
 * {margin: 0;}
+* {box-sizing: border-box;}
     
 
 body {
@@ -143,5 +144,9 @@ h2 {
     body {width: 100vw;}
     header {width: 100vw;}
     .footersection {width:100vw;}
+
+    .column {
+        width: 100vw;
+      }
 
 }
