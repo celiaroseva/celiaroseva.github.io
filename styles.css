@@ -133,18 +133,19 @@ h2 {
     }
     #emailtext {
         font-size: 17px;
+        padding-right: 0px;
     }
     #homeul {
         margin-right: -30px;
     }
     #homepage {
-        margin-left: 10px;
+        margin-left: 20px;
     }
     #aboutpage {
         margin-left: 20px;
     }
     #servicespage {
-        margin-left: 20px;
+        margin-left: 25px;
     }
     #inquirypage {
         margin-left: 50px;
@@ -159,10 +160,21 @@ h2 {
 
     body {width: 100vw;}
     header {width: 100vw;}
-    .footersection {width:100vw; height: auto;}
+    .footersection {
+        width:100vw; height: auto;
+    }
 
     .column {
         width: 100vw;
       }
+
+      #instagramicon {
+        height: 15%;
+        width: auto;
+        padding: 5px;
+        margin-right: 5px;
+        padding-right: 5px;
+        padding-left: 40px;
+    }
 
 }

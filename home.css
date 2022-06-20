@@ -266,13 +266,15 @@ div.mc-field-group input:focus {
     align-items:center;
     }
     #servicetext {
-        margin-top: 30px;
+        margin-top: 60px;
     }
     /* start section */
     .startsection {
         width: 90vw;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
+        margin-left: 15px;
     }
     .link2 {
         font-size: 35px;
@@ -289,6 +291,7 @@ div.mc-field-group input:focus {
         width: 90vw;
         text-align: center;
         padding-bottom: 30px;
+        margin-left: 15px;
     }
 
     

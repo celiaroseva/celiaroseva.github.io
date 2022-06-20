@@ -117,10 +117,13 @@ a.link3:visited {color: white !important;}
         width: 90vw;
         font-size: 15px;
         padding-left: 10px;
+        align-items: center;
+        text-align: center;
     }
     .listsection {
         width: 100vw;
         flex-direction: column;
+        
     }
     .pagetext {
         width: 80vw;
