@@ -228,7 +228,7 @@ div.mc-field-group input:focus {
 @media screen and (max-width: 480px) {
      .grid {
         grid-template-columns: repeat(100%);
-        grid-template-rows: 300px 150px 20px 370px 100px 2000px 300px 400px 200px; 
+        grid-template-rows: 300px 150px 50px 500px 100px 2000px 300px 430px 200px; 
      }
      .intro {
         font-size: 20px;
@@ -241,14 +241,23 @@ div.mc-field-group input:focus {
         font-size: 50px;
     }
     #photo1 {
-        height: 50%;
-        width: auto;
+        height: auto;
+        width: 90vw;
+    }
+    .image1 {
+        text-align: center;
     }
     #intropara {
-        font-size: 15px;
+        font-size: 17px;
         padding-top: 45px;
-        padding-left: 20px;
-        width: 45vw;
+        padding: 20px;
+        width: 100vw;
+        padding-bottom: 30px;
+    }
+
+    .aboutsection {
+        flex-direction: column;
+        justify-content: flex-start;
     }
     /* service section */
     .servicesection {
@@ -256,25 +265,30 @@ div.mc-field-group input:focus {
     justify-content: center;
     align-items:center;
     }
+    #servicetext {
+        margin-top: 30px;
+    }
     /* start section */
     .startsection {
         width: 90vw;
+        flex-direction: column;
         justify-content: center;
     }
     .link2 {
-        font-size: 40px;
-        margin-left: 20px;
-        text-align: left;
+        font-size: 35px;
+        text-align: center;
     }
     #arrow {
         height: 25%;
         width: auto;
         padding: 20px;
-        margin-right: 60px;
+        margin-right: 0px;
     }
     /* email signup */
     #mc_embed_signup {
         width: 90vw;
+        text-align: center;
+        padding-bottom: 30px;
     }
 
     

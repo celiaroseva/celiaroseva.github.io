@@ -131,6 +131,10 @@ a.link3:visited {color: white !important;}
         margin-left: 20px;
     }
 
+    .button {
+        width: 70vw;
+    }
+
 }
 
 

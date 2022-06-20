@@ -65,28 +65,38 @@
 @media screen and (max-width: 480px) {
     .grid {
         grid-template-columns: repeat(100%);
-        grid-template-rows: 300px 100px 2200px 300px 200px; 
+        grid-template-rows: 300px 100px 1800px 300px 200px; 
     } 
     .aboutheader {
         width: 100vw;
     }
     #headertext {
-        font-size: 25px;
+        font-size: 35px;
         padding-bottom: 40px;
+        text-align: center;
     }
     .aboutcontent {
         width: 100vw;
         margin-top: -20px;
+        flex-direction: column;
+        justify-content: flex-start;
     }
     #photo2 {
-        width: 200px;
+        width: 80vw;
         height: auto;
     }
     .image2 {
         width: 100vw;
+        order: 1;
+        margin-top: 0px;
+        margin-right: 0px;
+        text-align: center;
     }
+    
     #aboutpara {
         font-size: 17px;
+        order: 2;
+        margin-top: -60px;
     }
     #photo3 {
         height: auto;
